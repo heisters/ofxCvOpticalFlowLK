@@ -43,6 +43,9 @@ class ofxCvOpticalFlowLK
 	//Used to filter noisey or erroneous vectors
 	float minVector;
 	float maxVector;
+    
+    int getWidth(){ return captureWidth; }
+    int getHeight(){ return captureHeight; }
 
 private:
 
